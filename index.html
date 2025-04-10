@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Tutor Website | मेरा ट्यूटर वेबसाइट</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #2d89ef;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    .container {
+      padding: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    .bilingual {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .bilingual div {
+      flex: 1 1 300px;
+      margin: 10px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #2d89ef;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1b5fa7;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #28a745;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .download-btn:hover {
+      background: #218838;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      .bilingual {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Tutor Website | मेरे ट्यूटर वेबसाइट में आपका स्वागत है</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home | होम</a>
+    <a href="#about">About Me | मेरे बारे में</a>
+    <a href="#subjects">Subjects | विषय</a>
+    <a href="#materials">Study Materials | अध्ययन सामग्री</a>
+    <a href="#contact">Contact | संपर्क करें</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Home | होम</h2>
+    <div class="bilingual">
+      <div>
+        <p>Welcome! I am a dedicated tutor offering guidance for school students from Class 6 to 10. My goal is to make learning easy and enjoyable.</p>
+      </div>
+      <div>
+        <p>स्वागत है! मैं कक्षा 6 से 10 तक के छात्रों के लिए समर्पित शिक्षक हूं। मेरा उद्देश्य सीखने को आसान और आनंददायक बनाना है।</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Me | मेरे बारे में</h2>
+    <div class="bilingual">
+      <div>
+        <p>I am a passionate tutor with experience in teaching CBSE and Bihar Board students. I focus on building strong concepts through simple explanations and interactive sessions.</p>
+      </div>
+      <div>
+        <p>मैं एक उत्साही शिक्षक हूं, जो CBSE और बिहार बोर्ड के छात्रों को पढ़ाने का अनुभव रखता हूं। मैं सरल व्याख्याओं और इंटरैक्टिव सेशनों के माध्यम से मजबूत अवधारणाएं बनाने पर ध्यान देता हूं।</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="subjects">
+    <h2>Subjects | विषय</h2>
+    <div class="bilingual">
+      <div>
+        <ul>
+          <li>Science (Class 6–10)</li>
+          <li>Mathematics (Class 6–10)</li>
+          <li>Social Science Basics</li>
+          <li>UPSC Foundation (Basic level)</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>विज्ञान (कक्षा 6–10)</li>
+          <li>गणित (कक्षा 6–10)</li>
+          <li>सामाजिक विज्ञान की मूल बातें</li>
+          <li>UPSC नींव (मूल स्तर)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="materials">
+    <h2>Study Materials | अध्ययन सामग्री</h2>
+    <div class="bilingual">
+      <div>
+        <p>You can access topic-wise notes, MCQs, practice questions, and downloadable PDFs here.</p>
+        <a href="sample-english-material.pdf" class="download-btn" download>Download PDF (English)</a>
+      </div>
+      <div>
+        <p>यहां विषयवार नोट्स, बहुविकल्पीय प्रश्न, अभ्यास प्रश्न और पीडीएफ डाउनलोड किए जा सकते हैं।</p>
+        <a href="sample-hindi-material.pdf" class="download-btn" download>डाउनलोड पीडीएफ (हिंदी)</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact | संपर्क करें</h2>
+    <div class="bilingual">
+      <div>
+        <p>Phone: 9876543210<br>Email: mytutor@example.com</p>
+      </div>
+      <div>
+        <p>फ़ोन: 9876543210<br>ईमेल: mytutor@example.com</p>
+      </div>
+    </div>
+
+    <form>
+      <label for="name">Name | नाम</label>
+      <input type="text" id="name" name="name" placeholder="Your Name | आपका नाम" required>
+
+      <label for="email">Email | ईमेल</label>
+      <input type="email" id="email" name="email" placeholder="Your Email | आपका ईमेल" required>
+
+      <label for="message">Message | संदेश</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here | यहां अपना संदेश लिखें" required></textarea>
+
+      <button type="submit">Submit | सबमिट करें</button>
+    </form>
+  </div>
+</body>
+</html>
